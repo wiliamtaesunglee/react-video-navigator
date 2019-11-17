@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { connect } from 'react-redux'
+
 const Counter = ({counter, increment}) => (
   <button onClick={increment}>{counter}</button>
 )
